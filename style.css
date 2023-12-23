@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 1024px;
+}
+
+#heroesContainer {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.heroCard {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  width: 100%;
+  max-width: 320px;
+  border: 1px solid #001520;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.inputs {
+  margin: 10px;
+}
